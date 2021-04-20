@@ -12,3 +12,7 @@ NAME="GM"
 readonly NAME
 NAME="MAN"
 echo "$NAME"
+
+FNAME="Golam"
+unset FNAME
+echo "$FNAME"
