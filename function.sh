@@ -37,3 +37,9 @@ num2=5
 mul=$(getMul num1 num2 )
 
 echo "Multiplicaion of two numbers is: $mul"
+
+#function parameter behaviours
+hello(){
+    echo "hello $3"
+}
+hello MR Rafiq Uddin
