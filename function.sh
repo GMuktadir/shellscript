@@ -21,3 +21,19 @@ getName(){
 getName
 
 echo $name
+
+# function wit parameter 
+
+getMul() {
+    local n1=$1
+    local n2=$2
+    local mul=$((n1*n2))
+
+    echo $mul
+}
+
+num1=4
+num2=5
+mul=$(getMul num1 num2 )
+
+echo "Multiplicaion of two numbers is: $mul"
