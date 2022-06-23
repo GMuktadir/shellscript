@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #GM | 24.04.2021
-
+clear
 read -p "Enter a number to check even or odd: " num
 
-if (((($num%2))==0));
+if (((($num%2))==0))
 then 
     echo "Number is even"
 else

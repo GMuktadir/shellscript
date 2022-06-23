@@ -20,7 +20,7 @@ getName(){
 }
 getName
 
-echo $name
+#echo $name
 
 # function wit parameter 
 
@@ -40,6 +40,6 @@ echo "Multiplicaion of two numbers is: $mul"
 
 #function parameter behaviours
 hello(){
-    echo "hello $3"
+    echo "hello $1"
 }
 hello MR Rafiq Uddin
